@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Konsultasi Sederhana (Mirip Udinus - Tanpa CSS)</title>
+</head>
+<body>
+
+    <h1>Sistem Konsultasi Online</h1>
+    <p>Universitas Udinus (Mirip Udinus)</p>
+    <hr>
+
+    <h2>Navigasi Utama</h2>
+    <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#layanan">Layanan Konsultasi</a></li>
+        <li><a href="#jadwal">Jadwal & Kuota</a></li>
+        <li><a href="#login">Login/Daftar</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+    </ul>
+    <hr>
+
+    <h2 id="beranda">Selamat Datang di Portal Konsultasi Udinus</h2>
+    <p>Kami menyediakan layanan konsultasi akademik, karir, dan psikologis untuk membantu mahasiswa mencapai potensi terbaik mereka.</p>
+    <p>Silakan gunakan menu navigasi di atas untuk mengakses berbagai layanan kami.</p>
+
+    <h2 id="layanan">Layanan Konsultasi Kami</h2>
+    <ol>
+        <li>
+            <h3>Konsultasi Akademik</h3>
+            <p>Bantuan terkait perencanaan studi, mata kuliah, dan masalah KRS/KHS.</p>
+        </li>
+        <li>
+            <h3>Konsultasi Karir</h3>
+            <p>Bimbingan untuk perencanaan masa depan, magang, dan persiapan kerja.</p>
+        </li>
+        <li>
+            <h3>Konsultasi Psikologis</h3>
+            <p>Dukungan untuk mengatasi stres, kecemasan, dan masalah pribadi lainnya.</p>
+        </li>
+    </ol>
+    <hr>
+
+    <h2 id="login">Login Mahasiswa / Pendaftar Baru</h2>
+    <form action="/proses_login" method="post">
+        <label for="nim">NIM / Username:</label><br>
+        <input type="text" id="nim" name="nim" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Login ke Sistem">
+    </form>
+    <p>Belum punya akun? <a href="/daftar">Daftar di sini</a></p>
+    <hr>
+
+    <h2 id="kontak">Hubungi Kami</h2>
+    <address>
+        <strong>Pusat Layanan Konsultasi</strong><br>
+        Gedung H, Lantai 1<br>
+        Jalan Contoh No. 123<br>
+        Email: <a href="mailto:info@xyz.ac.id">dinus.ac.id</a><br>
+        Telepon: (024) 123456
+    </address>
+    <hr>
+
+    <p align="center">
+        &copy; 2025 Universitas Udinus. Semua Hak Cipta Dilindungi. <br>
+        <em>Versi Teks Murni (Tanpa CSS)</em>
+    </p>
+
+</body>
+</html>
